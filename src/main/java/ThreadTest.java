@@ -225,6 +225,7 @@ public class ThreadTest implements Runnable {
     }
 
     public static void main(String s[]) {
+        System.out.println("UPDATED?");
         ThreadTest w1 = new ThreadTest(1);
         new Thread(w1).start();
         try {
@@ -239,3 +240,4 @@ public class ThreadTest implements Runnable {
         new Thread(w3).start();
     }
 }
+///updatecomment
